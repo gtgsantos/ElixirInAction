@@ -10,4 +10,4 @@ defmodule MyProject do
   end
 end
 
-IO.puts "print!" <> MyProject.add(1, 2)
+IO.puts MyProject.add(1, 2)
